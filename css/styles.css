@@ -1,0 +1,225 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat.ttf');
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{
+  background-image: url("../Images/fall.valley.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  color:#111;
+}
+
+.top-bar {
+  background: #000;
+  color: #fff;
+  width: 100%;
+  height: 40px; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  z-index: 999;
+  padding: 0 20px;
+}
+
+
+.logo {
+  position: absolute;
+  left: 20px;  
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 700;
+  font-size: 22px;
+}
+
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.section {
+  width:100%;
+  text-align:center;
+  padding-top:40px;
+  padding-bottom:84px;
+}
+
+.section .title {
+  font-size:48px;
+  margin-bottom:40px;
+  font-weight:600;
+}
+
+.large-box{
+  width:1200px;
+  max-width:90%;
+  margin:0 auto;
+  border:2px solid #000;
+  background:#f4f4f4;
+  padding:80px 40px;
+  font-size:20px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:260px;
+  text-align:center;
+  line-height:1.4;
+}
+
+.spacer{height:40px}
+
+.nav a.active{
+  text-decoration:underline;
+  text-underline-offset:6px;
+}
+
+form#booking-form {
+  width: 40%;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px 25px;
+  border-radius: 10px;
+  border: 3px solid #c65e2e;
+  font-size: 1.1rem;
+}
+
+
+fieldset {
+  border: 3px solid #c65e2e;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+
+legend {
+  font-weight: bold;
+  padding: 0 10px;
+  font-size: 1.2rem;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #555;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border: 2px solid #c65e2e;
+  background-color: #fff5ef;
+}
+
+input[type="submit"] {
+  background: #c65e2e;
+  color: black;
+  border: none;
+  padding: 14px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  transition: 0.25s ease;
+}
+
+input[type="submit"]:hover {
+  background: #8b4b23;
+  color: white;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 48px;
+  margin-top: 50px;   
+  margin-bottom: 40px; 
+  color: black;        
+}
+
+@media (min-width: 1400px) {
+  .hero-title {
+    font-size: 100px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .hero-title {
+    font-size: 48px;
+  }
+
+  .nav ul {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  form#booking-form {
+    width: 90%;
+  }
+}
+
+
+.grid-box {
+  padding: 10px;
+  border-radius: 14px;
+  border: 3px solid #c65e2e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-card {
+  width: 700px;
+  max-width: 90%;
+  margin: 40px auto;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  border: 3px solid #c65e2e;
+  padding: 30px 40px;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.5;
+  
+
+  height: auto;
+  min-height: 0;
+}
+.about-photo {
+  width: 530px;    
+  height: auto;      
+  display: block;
+  margin: 0 auto 20px; 
+  border-radius: 10px;
+ 
+}
