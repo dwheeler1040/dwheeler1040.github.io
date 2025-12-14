@@ -108,6 +108,8 @@ main {
   padding: 30px 40px;
   font-size: 1.2rem;
   line-height: 1.5;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 /* About photo */
@@ -263,3 +265,10 @@ input[type="submit"]:hover {
     background-attachment: scroll;
     background-position: center top;
   }
+  @media (max-width: 768px) {
+  .page-card {
+    padding: 24px 20px;
+    font-size: 1rem;
+  }
+}
+
