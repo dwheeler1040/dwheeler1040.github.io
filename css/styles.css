@@ -190,6 +190,12 @@ input[type="submit"]:hover {
   }
 }
 
+@media (max-width: 800px) {
+  body {
+    background-attachment: scroll;
+    background-position: center top;
+  }
+}
 
 .grid-box {
   padding: 10px;
