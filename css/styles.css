@@ -258,8 +258,8 @@ input[type="submit"]:hover {
 }
 @media (max-width: 800px) {
   body {
-    background-attachment: scroll;   /* fixes zoom issue */
-    background-position: center top; /* consistent framing */
-    background-size: cover;
+    background-attachment: scroll;   /* disables fake fixed behavior */
+    background-size: cover;           /* keeps same scale */
+    background-position: center top;  /* consistent anchor point */
   }
 }
