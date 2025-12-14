@@ -242,7 +242,9 @@ input[type="submit"]:hover {
   border: 3px solid #000;
   transition: transform 0.3s ease;
 }
-
+ main {
+    padding-top: 80px; 
+ }
 
 .gallery-grid img:hover {
   transform: scale(1.03);
@@ -270,5 +272,8 @@ input[type="submit"]:hover {
 
   .nav a {
     font-size: 16px;
+  }
+   main {
+    padding-top: 140px; 
   }
 }
