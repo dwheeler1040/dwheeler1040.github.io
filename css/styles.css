@@ -163,6 +163,12 @@ input[type="submit"]:hover {
   margin-bottom: 30px; 
   color: black;        
 }
+@media (max-width: 800px) {
+  .page-title {
+    margin-top: 110px; 
+    font-size: 36px;
+  }
+}
 
 @media (min-width: 1400px) {
   .hero-title {
