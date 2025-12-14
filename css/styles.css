@@ -196,7 +196,13 @@ input[type="submit"]:hover {
     background-position: center top;
   }
 }
+@media (max-width: 768px) {
 
+  main {
+    padding-top: 180px; 
+  }
+
+}
 .grid-box {
   padding: 10px;
   border-radius: 14px;
