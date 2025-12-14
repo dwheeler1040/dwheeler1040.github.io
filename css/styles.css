@@ -255,10 +255,3 @@ input[type="submit"]:hover {
     width: 90%;
   }
 }
-@media (max-width: 800px) {
-  body {
-    background-attachment: scroll;   /* disables fake fixed behavior */
-    background-size: cover;           /* keeps same scale */
-    background-position: center top;  /* consistent anchor point */
-  }
-}
