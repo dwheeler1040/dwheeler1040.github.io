@@ -3,7 +3,6 @@
   src: url('../fonts/montserrat.ttf');
 }
 
-/* RESET */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,9 +25,6 @@ body{
   color:#111;
 }
 
-/* =========================
-   FIXED TOP NAV BAR
-========================= */
 .top-bar {
   background: #000;
   color: #fff;
@@ -43,7 +39,6 @@ body{
   z-index: 1000;
 }
 
-/* Logo stays left */
 .logo {
   position: absolute;
   left: 20px;
@@ -51,7 +46,6 @@ body{
   font-size: 22px;
 }
 
-/* Centered nav */
 .nav ul {
   list-style: none;
   display: flex;
@@ -69,17 +63,10 @@ body{
   text-underline-offset: 6px;
 }
 
-/* =========================
-   GLOBAL CONTENT OFFSET
-   (THIS FIXES TITLE COVERING)
-========================= */
 main {
   padding-top: 100px;
 }
 
-/* =========================
-   PAGE TITLES (ALL PAGES)
-========================= */
 .page-title {
   text-align: center;
   font-size: 48px;
@@ -87,18 +74,12 @@ main {
   color: black;
 }
 
-/* =========================
-   SECTIONS
-========================= */
 .section {
   width: 100%;
   text-align: center;
   padding-bottom: 80px;
 }
 
-/* =========================
-   CARDS (About / Contact)
-========================= */
 .page-card {
   width: 700px;
   max-width: 90%;
@@ -113,7 +94,6 @@ main {
   overflow-wrap: break-word;
 }
 
-/* About photo */
 .about-photo {
   display: block;
   max-width: 500px;
@@ -124,9 +104,6 @@ main {
   border: 3px solid #c65e2e;
 }
 
-/* =========================
-   BOOKING FORM
-========================= */
 form#booking-form {
   width: 40%;
   margin: 40px auto 80px;
@@ -192,9 +169,7 @@ input[type="submit"]:hover {
   color: white;
 }
 
-/* =========================
-   GALLERY GRID
-========================= */
+
 .gallery-grid {
   width: 90%;
   max-width: 1400px;
@@ -217,9 +192,6 @@ input[type="submit"]:hover {
   transform: scale(1.03);
 }
 
-/* =========================
-   MOBILE FIXES
-========================= */
 @media (max-width: 768px) {
 
   body {
@@ -272,10 +244,7 @@ input[type="submit"]:hover {
     font-size: 1rem;
   }
 }
-/* =========================
-   MOBILE BACKGROUND FIX
-   (PREVENTS WHITE / EMPTY SPACE)
-========================= */
+
 @media (max-width: 768px) {
 
   html, body {
@@ -284,7 +253,7 @@ input[type="submit"]:hover {
   }
 
   body {
-    background-attachment: scroll;       /* mobile-safe */
+    background-attachment: scroll;   
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
