@@ -272,4 +272,22 @@ input[type="submit"]:hover {
     font-size: 1rem;
   }
 }
+/* =========================
+   MOBILE BACKGROUND FIX
+   (PREVENTS WHITE / EMPTY SPACE)
+========================= */
+@media (max-width: 768px) {
 
+  html, body {
+    height: auto;
+    min-height: 100%;
+  }
+
+  body {
+    background-attachment: scroll;       /* mobile-safe */
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+}
