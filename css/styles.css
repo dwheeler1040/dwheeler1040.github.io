@@ -256,3 +256,10 @@ input[type="submit"]:hover {
     width: 90%;
   }
 }
+@media (max-width: 800px) {
+  body {
+    background-attachment: scroll;   /* fixes zoom issue */
+    background-position: center top; /* consistent framing */
+    background-size: cover;
+  }
+}
