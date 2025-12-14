@@ -247,3 +247,28 @@ input[type="submit"]:hover {
 .gallery-grid img:hover {
   transform: scale(1.03);
 }
+@media (max-width: 768px) {
+
+  .top-bar {
+    flex-direction: column;
+    height: auto;
+    padding: 15px 10px;
+  }
+
+  .logo {
+    position: static;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .nav a {
+    font-size: 16px;
+  }
+}
