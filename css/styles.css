@@ -292,3 +292,9 @@ input[type="submit"]:hover {
     background-position: center top;
   }
 }
+@media (max-width: 768px) {
+  .page-title {
+    margin-top: 140px; 
+    font-size: 36px;   
+  }
+}
